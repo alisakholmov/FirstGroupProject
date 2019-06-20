@@ -47,7 +47,13 @@ nav li {
 }
 
 
-
+/* Footer */
+ footer {
+	 background-color: pink;
+	 text-align: center;
+	 color: brown;
+	 font-family: 'Mali', cursive;
+ }
     
 
     
