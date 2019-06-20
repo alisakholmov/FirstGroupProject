@@ -4,6 +4,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,16 +35,28 @@ p {
 
 /* Menu */
 
+header {
+	position: relative;
+	background-color: pink;
+	padding: 1rem 0;
+}
+
 .logo {
+	position: absolute;
 	max-height: 60px;
+	top: 15px;
+	left: 20px;
 }
 
 nav ul {
 	list-style-type: none;
+	text-align: center;
+	margin: 0;
 }
 
 nav li {
 	display: inline-block;
+	margin: 1rem 2rem;
 }
 
 
