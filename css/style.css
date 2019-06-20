@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Mali', cursive;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 3.5rem;
+	text-align: center;
+	
+}
+
+h2 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.container {
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+/* Menu */
+
+header {
+	position: relative;
+	background-color: pink;
+	padding: 1rem 0;
+}
+
+.logo {
+	position: absolute;
+	max-height: 60px;
+	top: 15px;
+	left: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 1rem 2rem;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+main img{
+	width: 800px;
+
+}
+
+    
+#now li, #men li{
+	color : red;
+	font-family: 'Open Sans', sans-serif;
+	font-size:2.5rem;
+	padding: 5px 0 5px 0;
+}
+    
+.footer {
+	 color: brown;
+	 background-color: pink;
+	 font-family: 'Mali', cursive;
+	 text-align: center;
+}
